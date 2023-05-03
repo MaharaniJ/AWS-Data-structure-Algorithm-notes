@@ -1,0 +1,63 @@
+algorithm paradigm:
+def:it is just a tecnique that employed to solve a specific pattern of problem
+1.Greedy algorithm
+2.Dtnamic programming ***
+3.Divide and conquer
+4.Backtracking/branch and bound
+
+Greedy algorithm:
+Bus a -0 stops-20mins
+bus b-5 stops - 1hr
+
+OS Sheduling:
+Round robin
+priority based
+shortest job first
+shortest remaining time
+
+ApplicationRunning Time = [2,10,3,25,34]=>[0,2,12,15,40] = 69
+
+Divid(log n) and Conquer(n) - 
+  Break the main problem into   subproblems
+  solve the subproblem =>sorting   smaller arrays
+  Combine the results to get the   sollution for msin problem =>   combining sorted smaller arrays
+  total time complexity = n log n 
+
+//Bigcheatsheet.com
+
+2.Dynamic programming(tradeoff)
+fibonacci series = 0,1,1,2,3,5,8,13 - add two previous num
+
+fib(n)
+if n==0
+return 0;
+if n==1 or n==2
+return 1
+return fib(n-1)+fib(n-2)
+
+1.Overlapping subproble:Repeating same calculation again and aain
+2.Optional substructure:solution to sub problem will contribute to the solution of big problem
+ it is called - Bottom up approach ->tabulation
+Top down approach ->Memorization
+
+we will try to reduce the repeated
+
+4.Backtracking/branch and bound
+State is something that accurately represents the current iteration
+We search for all possible states to decide if we have the answer
+
+factorial(n) =1*2*3*...*n
+Factotial(4)=1*2*3*4 = 24
+
+def factorial(n)
+if n==1
+return 1
+return n*factorial
+
+
+
+
+
+
+
+

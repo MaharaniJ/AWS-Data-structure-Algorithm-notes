@@ -1,0 +1,30 @@
+
+visualgo.net
+disadvantage:
+Fixed datatype -homogenous dt
+fixed size - we cant add new element
+
+node(place or address) 1.data component
+                       2.pointercomponent(it holds the next pointervalue) 
+
+class Node{
+constructor(val){
+this.val = val
+this.next = null
+}
+}
+class linkedlist{
+constructor(){
+ths.head = null
+}
+}
+circle -represents - 
+
+when the next_ptr is null - it is consider as last address
+we can exband the size of memory and store multiple data using - list and hashmap
+
+
+start of the linklist is head
+funtamental unit of linkedlist is node
+integer - 4 byte
+string - 1byte

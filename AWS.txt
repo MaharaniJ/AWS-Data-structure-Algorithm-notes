@@ -1,0 +1,26 @@
+it gives server and computing
+can enable deploye more region
+better customer experiens
+types of cloud computing
+IAAS, PAAS, SAAS
+PAAS - you don't need to create server and completely managed by AWS
+infrastructure - developed by Devops ,architecture
+
+FSD
+netlify- frontend
+render(generate the url ofter push the code) which is automatically enabled by cicd-continous Integration and continous deployment(automat the code deplyement)(build,complire, deploye) - backend
+database - SQL, MongoDB 
+
+AWS - storage
+SSS - simple service storage
+database-dynamoDB
+backend - Lamda
+
+Hybridcloud -banking and financial service and government agencies
+
+PII Data- Personal Identit Information
+
+
+
+
+

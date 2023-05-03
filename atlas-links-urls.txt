@@ -1,0 +1,48 @@
+https://ap-south-1.aws.data.mongodb-api.com/app/data-ywgys/endpoint/data/v1  =url endpoint
+
+
+var axios = require('axios');
+var data = JSON.stringify({
+    "collection": "comment",
+    "database": "stackoverflow",
+    "dataSource": "Cluster0",
+    "projection": {
+        "_id": 1
+    }
+});
+            
+var config = {
+    method: 'post',
+    url: 'https://ap-south-1.aws.data.mongodb-api.com/app/data-ywgys/endpoint/data/v1/action/findOne',
+    headers: {
+      'Content-Type': 'application/json',
+      'Access-Control-Request-Headers': '*',
+      'api-key': 'I0EgQpJgjhgyq3BcuggIUIEKA4hFfk0jNpBYKVDO4Seq5vR9JNtgiCyg9577237T',
+      'Accept': 'application/ejson'
+    },
+    data: data
+};
+            
+axios(config)
+    .then(function (response) {
+        console.log(JSON.stringify(response.data));
+    })
+    .catch(function (error) {
+        console.log(error);
+    });
+without snipets extended JSON as the return type
+
+
+keyname = maha
+
+api-keys=maha
+64196a8942b97d68a0314477
+
+
+apikey-public-key=tzrjcrwl
+private-key=8b033883-2b34-40c6-a649-c995f6ba6042
+
+current IP-address=157.51.194.38
+
+
+"mongodb+srv://maha:bn8D6wDuPYqoV9tZ@cluster0.jmha8ge.mongodb.net/?retryWrites=true&w=majority

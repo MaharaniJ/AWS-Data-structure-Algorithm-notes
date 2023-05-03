@@ -1,0 +1,45 @@
+stack-LIFO-last in first out
+cs.usfca.edu
+array opration
+push - insert- it insert in one direction
+pop - deleter/remove/read
+ top is decreased by 1 - to find the deleted position.
+when over push - check the overflow
+when ever pop - check the underflow(top=0)
+
+peek -gives you the most recent that was pushed
+stack(top-1)=peek
+stack-overflow- if input extream the stack size
+top===size 
+
+problem:
+Balancing/valid Paranthesis [,],{,},(,)- the output is true when the open and closing paranthesis is in orderly. otherwise - false
+
+current-match=top of the stack -if it is match then pop that
+ put the opening paranthesis into the
+
+incase curent(top)of the stack has clossing paranthesis but stack is empty - the value will be return is -false
+
+key pair values in DS&Algo - dictionary--egvar x = {"Guvi":"DS"}
+
+unordered paranthesis is in ds -use map to find this ({[ - then match the stack value and current(top) value
+finally the stack is empty - it will return true
+
+Qeuue - FIFO-first in first out
+Enqueue - insertion-overflow
+Dequeue - deletion - underflow
+head and tail
+head - to inform the deleting index
+tail- it informs the next available or empty stack
+
+stack-overflow in Queue
+Enqueue
+capacity = tailvalue -overflow
+Dequeue
+head value = tail value - Dequeue
+
+circular Queue - it will check the availabale space or empty space where ever in the queue
+
+infix to postfix - problem-example
+
+
